@@ -9,10 +9,13 @@ message Chain {
 enum ChainRef {
     CHAIN_UNSPECIFIED = 0;
 
-    CHAIN_MAINNET = 1;
-    CHAIN_SEPOLIA = 2;
-    CHAIN_POLYGON = 3;
-    CHAIN_AMOY = 4;
+    CHAIN_BITCOIN = 1;
+    CHAIN_ETHEREUM = 2;
+    CHAIN_SEPOLIA = 3;
+    CHAIN_POLYGON= 4;
+    CHAIN_AMOY= 5;
+    CHAIN_KATANA= 6;
+    CHAIN_BOKUTO= 7;
 }
 
 message SingleAddress {
